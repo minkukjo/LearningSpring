@@ -1,4 +1,4 @@
-package me.harry.springbootgettingstarted.user;
+package me.harry.springbootgettingstarted.model;
 
 public class User {
 

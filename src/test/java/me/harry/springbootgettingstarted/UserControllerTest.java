@@ -1,7 +1,7 @@
 package me.harry.springbootgettingstarted;
 
 
-import me.harry.springbootgettingstarted.user.UserController;
+import me.harry.springbootgettingstarted.controller.UserController;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
