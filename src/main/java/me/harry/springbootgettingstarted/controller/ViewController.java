@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class ViewController {
 
     @GetMapping("/")
-    public String main(Model model){
-        model.addAttribute("name","harry");
+    public String main(Model model) {
+        model.addAttribute("name", "harry");
 
         return "main";
     }

@@ -30,7 +30,7 @@ public class ViewControllerTest {
                 .andExpect(status().isOk())
                 .andDo(print())
                 .andExpect(view().name("main"))
-                .andExpect(model().attribute("name",is("harry")));
+                .andExpect(model().attribute("name", is("harry")));
 
     }
 }

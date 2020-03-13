@@ -38,6 +38,6 @@ public class UserControllerTest {
                 .content(userJson))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.username", is(equalTo("harry"))))
-                .andExpect(jsonPath("$.password",is(equalTo("1234"))));
+                .andExpect(jsonPath("$.password", is(equalTo("1234"))));
     }
 }
